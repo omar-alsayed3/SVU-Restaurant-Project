@@ -1,0 +1,167 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>مطعم السلطان</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">مطعم السلطان</a>
+            <nav class="information">
+                <a href="Home.html">الصفحة الرئيسية</a>
+                <a href="aboutus.html">من نحن</a>
+                <a href="meals.html">الوجبات </a>
+            </nav>
+        </div>
+    </header>
+    <center>
+        <table>
+            <tr>
+                <th>الرمز</th>
+                <th>الوجبة</th>
+                <th>السعر</th>
+                <th>إظهار التفاصيل</th>
+                <th>اختيار</th>
+            </tr>
+            <tr>
+                <td>SE-01</td>
+                <td>وجبة الملوخية المصرية بالدجاج</td>
+                <td>85000 ل.س</td>
+                <td><input type="checkbox" id="showd1" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="SE-01" data-name="وجبة الملوخية المصرية بالدجاج" data-price="85000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/1.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> وجبات رئيسية<br>
+                        <b>المطبخ:</b> المطبخ المصري<br>
+                        <b>المكونات:</b> اوراق ملوخية طازجة ومفرومة ناعما دجاجة كاملة مسلوقة مرق دجاج غني بالمطيبات ورق غار وبصل ارز شعيرية مفلفل وخبز بلدي محمص<br>
+                        <b>الصلصة:</b> طشة مصرية أصيلة تتكون من ثوم مهروس ناعم كزبرة يابسة مطحونة وسمن بلدي طبيعي يتم قليها حتى تصبح ذهبية وتوضع فوق الملوخية
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>SE-02</td>
+                <td>وجبة كفتة مشوية على الفحم</td>
+                <td>12000 ل.س</td>
+                <td><input type="checkbox" id="showd2" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="SE-02" data-name="وجبة كفتة مشوية على الفحم" data-price="12000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/2.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> مشويات ولحوم<br>
+                        <b>المطبخ:</b> المطبخ المصري<br>
+                        <b>المكونات:</b> لحم ضأن وبقر مفروم بنسبة دسم قليلة بصل مصفى من الماء بقدونس مفروم بهارات الكفتة المصرية وتقدم مع ارز بسمتي أصفر وخضراوات مشوية<br>
+                        <b>الصلصة:</b> صلصة الطحينة البيضاء المصنوعة من طحينة السمسم خل تفاح عصير ليمون كمون وشطة حمراء
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>EJ-03</td>
+                <td>وجبة منسف بلدي بالجميد</td>
+                <td>10000 ل.س</td>
+                <td><input type="checkbox" id="showd3" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="EJ-03" data-name="وجبة منسف بلدي بالجميد" data-price="10000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/3.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> أطباق شعبية<br>
+                        <b>المطبخ:</b> المطبخ الشرقي<br>
+                        <b>المكونات:</b> لحم غنم بلدي بالعظم ارز مسلوق بالسمن ومتبل بالكركم خبز صاج يوضع في أسفل الطبق لوز مقلي وصنوبر محمص<br>
+                        <b>الصلصة:</b> صلصة الجميد الكركية الأصلية وهي عبارة عن لبن مخيض مجفف يطبخ مع مرق اللحم والسمن حتى يثخن القوام
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>SE-04</td>
+                <td>وجبة كشري ابو طارق</td>
+                <td>15000 ل.س</td>
+                <td><input type="checkbox" id="showd4" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="SE-04" data-name="وجبة كشري ابو طارق" data-price="15000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/4.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> وجبات نباتية<br>
+                        <b>المطبخ:</b> المطبخ المصري<br>
+                        <b>المكونات:</b> طبقات مع الأرز المصري والعدس الأسود مكرونة صغيرة معكرونة سباغيتي حمص شام مسلوق وبصل مقطع شرائح ومحمر حتى القرمشة<br>
+                        <b>الصلصة:</b> صلصة طماطم كثيفة مسبكة بالثوم والخل مع جانب من الدقة تتكون من الليمون والكمون والثوم وصلصة الشطة الحارة لمن يرغب
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>SI-05</td>
+                <td>باستا فيتوتشيني الفريدو</td>
+                <td>20000 ل.س</td>
+                <td><input type="checkbox" id="showd5" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="SI-05" data-name="باستا فيتوتشيني الفريدو" data-price="20000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/5.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> مكرونات<br>
+                        <b>المطبخ:</b> المطبخ الإيطالي<br>
+                        <b>المكونات:</b> مكرونة فيتوتشيني إيطالية طويلة قطع صدور دجاج مشوية بتتبيلة الأعشاب فطر عيش الغراب الطازج وجبنة بارميزان معتقة مبشورة
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>SD-06</td>
+                <td>كبة لبنية شامية</td>
+                <td>17000 ل.س</td>
+                <td><input type="checkbox" id="showd6" name="showd"></td>
+                <td><input type="checkbox" class="meal-select" data-code="SD-06" data-name="كبة لبنية شامية" data-price="17000 ل.س"></td>
+            </tr>
+            <tr style="display: none;">
+                <td colspan="5">
+                    <center><img src="pictures/6.jpg" height="300" width="300"></center>
+                    <p style="text-align: right;">
+                        <b>تصنيف الطعام:</b> وجبات رئيسية ساخنة<br>
+                        <b>المطبخ:</b> المطبخ الشامي<br>
+                        <b>المكونات:</b> كرات كبة برغل محشوة بلحم مفروم وصنوبر وبصل مطبوخة ببطء وتقدم مع أرز أبيض مفلفل وزينة من النعناع اليابس<br>
+                        <b>الصلصة:</b> صلصة اللبن المطبوخ بالنشاء والبيض للحصول على قوام مخملي مع إضافة الثوم المقلي بالسمن في النهاية
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <div id="orderSummary">
+            <p>لم يتم اختيار أي وجبة حتى الآن.</p>
+        </div>
+        <button id="follow" onclick="toggleForm()" disabled>متابعة</button>
+    </center>
+    <form onsubmit="return validateForm();" method="post" name="myinfo" id="myinfo" style="display:none;">
+        <div class="container">
+            <label for="name"><b> الاسم الكامل بالانجليزية </b></label>
+            <input type="text" placeholder="ادخل اسمك الكامل" id="myUsername" name="username"><br>
+            <label for="student"><b>الرقم الوطني</b></label>
+            <input type="text" placeholder="رقم الحساب البنكي " id="number_s" name="number_s"><br>
+            <label for="date"><b>تاريخ الطلب</b><br></label>
+            <input type="text" placeholder="DD/MM/YYYY" id="date1" name="date1"><br>
+            <label for="phone"><b> الموبايل </b></label>
+            <input type="text" placeholder="0987654321" id="phonenumber" name="phonenumber"><br>
+            <input type="reset" id="btnrefresh" value="تحديث" />
+            <button type="submit">شراء</button>
+        </div>
+    </form>
+
+    <div id="confirmation"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="myFunctions.js"></script>
+</body>
+
+</html>
